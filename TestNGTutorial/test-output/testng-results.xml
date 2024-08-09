@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="16" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T14:57:37 EDT" name="Loan Department" finished-at="2024-07-30T14:57:38 EDT" duration-ms="252">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.wTest2()[pri:0, instance:test.day2@618425b5]" name="wTest2" class="test.day2"/>
+        <method signature="day1.day1Demo()[pri:0, instance:test.day1@a530d0a]" name="day1Demo" class="test.day1"/>
+        <method signature="day4.APILoginHomeLoan(java.lang.String)[pri:0, instance:test.day4@73e9cf30]" name="APILoginHomeLoan" class="test.day4"/>
+        <method signature="day4.WebLoginHomeLoan()[pri:0, instance:test.day4@73e9cf30]" name="WebLoginHomeLoan" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-30T14:57:37 EDT" name="Car Loan" finished-at="2024-07-30T14:57:37 EDT" duration-ms="68">
+      <class name="test.day3">
+        <test-method signature="APILoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@506ae4d4]" started-at="2024-07-30T14:57:37 EDT" name="APILoginCarLoan" finished-at="2024-07-30T14:57:37 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoansDepartment.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Key@124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="APILoginCarLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day3@506ae4d4]" started-at="2024-07-30T14:57:37 EDT" name="APILoginCarLoan2" data-provider="getData" finished-at="2024-07-30T14:57:37 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan2 -->
+        <test-method signature="APILoginCarLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day3@506ae4d4]" started-at="2024-07-30T14:57:37 EDT" name="APILoginCarLoan2" data-provider="getData" finished-at="2024-07-30T14:57:37 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan2 -->
+        <test-method signature="APILoginCarLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day3@506ae4d4]" started-at="2024-07-30T14:57:37 EDT" name="APILoginCarLoan2" data-provider="getData" finished-at="2024-07-30T14:57:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan2 -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2024-07-30T14:57:37 EDT" name="Personal Loan" finished-at="2024-07-30T14:57:37 EDT" duration-ms="75">
+      <class name="test.day2">
+        <test-method is-config="true" signature="preRquisitesStep()[pri:0, instance:test.day2@618425b5]" started-at="2024-07-30T14:57:37 EDT" name="preRquisitesStep" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRquisitesStep -->
+        <test-method signature="wTest2()[pri:0, instance:test.day2@618425b5]" started-at="2024-07-30T14:57:37 EDT" name="wTest2" finished-at="2024-07-30T14:57:37 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wTest2 -->
+        <test-method signature="wTest1(java.lang.String)[pri:0, instance:test.day2@618425b5]" started-at="2024-07-30T14:57:37 EDT" name="wTest1" finished-at="2024-07-30T14:57:37 EDT" depends-on-methods="test.day2.wTest2" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PersonalLoansDepartment.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wTest1 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="bfClass()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="bfClass" finished-at="2024-07-30T14:57:37 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfClass -->
+        <test-method is-config="true" signature="bfmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="bfmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethod -->
+        <test-method signature="day1Demo()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="day1Demo" finished-at="2024-07-30T14:57:37 EDT" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.day1.day1Demo(day1.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1Demo -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="afmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="bfmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="bfmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethod -->
+        <test-method signature="day1Parameter(java.lang.String)[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="day1Parameter" finished-at="2024-07-30T14:57:37 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PersonalLoansDepartment.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1Parameter -->
+        <test-method is-config="true" signature="bfmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="bfmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethod -->
+        <test-method signature="day1Test()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="day1Test" finished-at="2024-07-30T14:57:37 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1Test -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="afmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="afClass()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="afClass" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="afmethod" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="lastExecutionStep()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:37 EDT" name="lastExecutionStep" finished-at="2024-07-30T14:57:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecutionStep -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-07-30T14:57:38 EDT" name="Home Loan" finished-at="2024-07-30T14:57:38 EDT" duration-ms="4">
+      <class name="test.day4">
+        <test-method signature="APILoginHomeLoan(java.lang.String)[pri:0, instance:test.day4@73e9cf30]" started-at="2024-07-30T14:57:38 EDT" name="APILoginHomeLoan" finished-at="2024-07-30T14:57:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomeLoansDepartment.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.day4@73e9cf30]" started-at="2024-07-30T14:57:38 EDT" name="WebLoginHomeLoan" finished-at="2024-07-30T14:57:38 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day3">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:test.day3@506ae4d4]" started-at="2024-07-30T14:57:37 EDT" name="bfSuite" finished-at="2024-07-30T14:57:37 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:test.day1@a530d0a]" started-at="2024-07-30T14:57:38 EDT" name="afSuite" finished-at="2024-07-30T14:57:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
