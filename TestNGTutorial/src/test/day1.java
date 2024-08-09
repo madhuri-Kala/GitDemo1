@@ -14,6 +14,7 @@ public class day1 {
 	@AfterClass
 	public void afClass() {
 		System.out.println("This is after Class of day 1 class");
+		System.out.println("This is git demo 1 Y");
 	}
 	@AfterMethod
 	public void afmethod() {
