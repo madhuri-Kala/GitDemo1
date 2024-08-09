@@ -19,6 +19,7 @@ public class day1 {
 	@AfterMethod
 	public void afmethod() {
 		System.out.println("I will execute after every method this test clas day 1");
+		System.out.println("This is git brach develop code added");
 	}
 
 	@AfterSuite

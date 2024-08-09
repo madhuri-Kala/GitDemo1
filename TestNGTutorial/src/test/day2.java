@@ -24,6 +24,7 @@ public class day2 {
 	public void Day2Test2()
 	{
 		System.out.println("This is third test of day 2 class");
+		System.out.println("This is git brach develop code added");
 	}
 	
 	@BeforeTest
